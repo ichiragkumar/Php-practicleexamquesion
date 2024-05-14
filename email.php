@@ -1,15 +1,15 @@
 <?php
-$u=$_POST['sname'];
-$p=$_POST['email'];
-$connction=mysqli_connect("localhost","root","","registration");
-$sql="INSERT INTO student (sname,email)VALUES('$U','$P')";
-$r=mysqli_query($connection,$sql);
-if($r)
+$name=$_POST['name'];
+$email=$_POST['email'];
+$conn =mysqli_connect("localhost","root","","college123");
+$sql="INSERT INTO deptcs(name,email)values('$name','$email')";
+$result=mysqli_query($conn,$sql);
+if($result)
 {
-    echo"mail register successfully";
+echo "email register sucessfully";
 }
 else
-{
-    "email registration failed";
+{ 
+echo "email registeration failed";
 }
 ?>
