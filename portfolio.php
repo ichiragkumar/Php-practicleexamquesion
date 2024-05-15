@@ -48,11 +48,11 @@ $github="github.com/aachalg";
     <section>
         <h2>Skills</h2>
         <ul>
-            <?php foreach($skills as $skill):?>
+            <?php foreach($skills as $skill) ?>
                 <li>
-                    <?php echo htmlspecialchars($skill);?>
+                    <?php echo htmlspecialchars($skill)?>
                 </li>
-                <?php endforeach;?>
+                <?php endforeach?>
         </ul>
     </section>
     <section>
